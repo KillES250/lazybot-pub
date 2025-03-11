@@ -155,7 +155,7 @@ const helpInfo = [
     args: [
       {
         arg: 'server',
-        help: '要查询的服务器，可选项：1 2 3 4 5'',
+        help: '要查询的服务器，可选项：1 2 3 4 5',
       }
     ],
   },
@@ -167,7 +167,7 @@ const helpInfo = [
     args: [
       {
         arg: 'server',
-        help: '要查询的服务器，可选项：1 2 3 4 5'',
+        help: '要查询的服务器，可选项：1 2 3 4 5',
       }
     ],
   },
@@ -179,7 +179,7 @@ const helpInfo = [
     args: [
       {
         arg: 'server',
-        help: '要查询的服务器，可选项：1 2 3 4 5'',
+        help: '要查询的服务器，可选项：1 2 3 4 5',
       }
     ],
   },
@@ -191,7 +191,7 @@ const helpInfo = [
     args: [
       {
         arg: 'server',
-        help: '要查询的服务器，可选项：1 2 3 4 5'',
+        help: '要查询的服务器，可选项：1 2 3 4 5',
       }
     ],
   },
