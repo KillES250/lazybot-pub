@@ -38,4 +38,8 @@ export const event = async function ({ msg }) {
   if (msg.includes('最后更新时间')) {
     this.bot.botEvent.emit('mud.money', msg);
   }
+  
+  if (msg.includes('目前有以下帮会')) {
+    this.bot.botEvent.emit('mud.party', msg);
+  }
 };
