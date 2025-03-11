@@ -26,4 +26,8 @@ export const event = async function ({ msg }) {
   if (msg.includes('绝招')) {
     this.bot.botEvent.emit('mud.skill', msg);
   }
+  
+  if (msg.includes('最后更新时间')) {
+    this.bot.botEvent.emit('mud.exp', msg);
+  }
 };
