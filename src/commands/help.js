@@ -147,6 +147,54 @@ const helpInfo = [
       },
     ],
   },
+  {
+    cmd: 'exp',
+    perm: 'user',
+    help: '查看各区经验排行',
+    usage: '/exp <server>',
+    args: [
+      {
+        arg: 'server',
+        help: '要查询的服务器，可选项：1 2 3 4 5'',
+      }
+    ],
+  },
+    {
+    cmd: 'mp',
+    perm: 'user',
+    help: '查看各区内力排行',
+    usage: '/mp <server>',
+    args: [
+      {
+        arg: 'server',
+        help: '要查询的服务器，可选项：1 2 3 4 5'',
+      }
+    ],
+  },
+    {
+    cmd: 'money',
+    perm: 'user',
+    help: '查看各区黄金排行',
+    usage: '/money <server>',
+    args: [
+      {
+        arg: 'server',
+        help: '要查询的服务器，可选项：1 2 3 4 5'',
+      }
+    ],
+  },
+    {
+    cmd: 'party',
+    perm: 'user',
+    help: '查看各区帮派积分排行',
+    usage: '/party <server>',
+    args: [
+      {
+        arg: 'server',
+        help: '要查询的服务器，可选项：1 2 3 4 5'',
+      }
+    ],
+  },
 ];
 
 export const name = 'help';
