@@ -34,4 +34,8 @@ export const event = async function ({ msg }) {
   if (msg.includes('最后更新时间')) {
     this.bot.botEvent.emit('mud.mp', msg);
   }
+  
+  if (msg.includes('最后更新时间')) {
+    this.bot.botEvent.emit('mud.money', msg);
+  }
 };
